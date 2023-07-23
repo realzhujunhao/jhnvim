@@ -29,7 +29,7 @@ keyset("i", "<TAB>", 'coc#pum#visible() ? coc#pum#next(1) : v:lua.check_back_spa
 keyset("i", "<CR>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
 -- LEADER-t     toggle terminal
 keyset("n", "<leader>t", "<Plug>(coc-terminal-toggle)", sino)
-vim.api.nvim_set_keymap('t', '<leader>t', [[<C-\><C-n><Plug>(coc-terminal-toggle)]], sino)
+vim.api.nvim_set_keymap('t', ';t', [[<C-\><C-n><Plug>(coc-terminal-toggle)]], sino)
 -- LEADER-f     format document
 keyset("n", "<leader>f", "<CMD>call CocAction('format')<CR>", sino)
 -- LEADER-rn    rename specifier
