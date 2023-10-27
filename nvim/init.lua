@@ -1,0 +1,8 @@
+require("junhaozhu.plugins-setup")
+require("junhaozhu.core.options")
+require("junhaozhu.core.keymaps")
+require("junhaozhu.core.colorscheme")
+require("junhaozhu.plugins.comment")
+require("junhaozhu.plugins.nvim-tree")
+require("junhaozhu.plugins.telescope")
+require("junhaozhu.plugins.coc")
