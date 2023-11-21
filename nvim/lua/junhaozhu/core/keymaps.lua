@@ -26,8 +26,11 @@ keymap.set("n", "<leader>tn", ":tabn<CR>")
 -- go to previous tab
 keymap.set("n", "<leader>tp", ":tabp<CR>")
 
+-- copy 
+keymap.set('v', '<leader>c', require('osc52').copy_visual)
+
 -- copy all
-keymap.set("n", "<leader>ca", 'gg"*yG')
+-- keymap.set("n", "<leader>ca", 'gg"*yG')
 
 -- plugin keymaps
 
