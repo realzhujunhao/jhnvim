@@ -31,12 +31,12 @@ return packer.startup(function(use)
 	use("folke/tokyonight.nvim")
 	use({ "bluz71/vim-nightfly-colors", as = "nightfly" })
 	use({ "catppuccin/nvim", as = "catppuccin" })
-    use({ "ellisonleao/gruvbox.nvim" })
-    use({ "EdenEast/nightfox.nvim" })
-    use("rebelot/kanagawa.nvim")
-    use("vim-airline/vim-airline")
-    use("vim-airline/vim-airline-themes")
-
+    	use({ "ellisonleao/gruvbox.nvim" })
+    	use({ "EdenEast/nightfox.nvim" })
+    	use("rebelot/kanagawa.nvim")
+    	use("vim-airline/vim-airline")
+   	use("vim-airline/vim-airline-themes")
+	use {'ojroques/nvim-osc52'}
 	use("christoomey/vim-tmux-navigator") -- split window navigation
 	use("szw/vim-maximizer") -- maximize & restore current window
 	use("tpope/vim-surround") -- ysw" = surround a word with quotes   ds" = undo
